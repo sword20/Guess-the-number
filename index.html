@@ -5,11 +5,11 @@
 <body>
   <h1>Guess The Number!</h1>
 	<script>
-        let num = Math.floor(Math.random() * 11);
+        let num = Math.floor(Math.random() * 100);
 
         //will turn true if right number is given
         let gotIt = false;
-        let guess = prompt("guess a number between 1 and 10");
+        let guess = prompt("guess a number between 1 and 100");
         let numGuesses = 0; //will store total number of guesses
 
         while(gotIt === false){
